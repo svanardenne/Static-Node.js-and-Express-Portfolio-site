@@ -1,0 +1,104 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Elder Gods",
+            "description": "Landing page created with React.js and Bootstrap",
+            "technologies": [
+                "React",
+                "Bootstrap"
+            ],
+            "live_link": "https://eldritchwebdesign.ca/elder-gods-brewing/",
+            "github_link": "https://github.com/svanardenne/elder-gods-brewing",
+            "image_urls": [
+                "/static/images/elder-gods/elder-gods-thumb.png",
+                "/static/images/elder-gods/elder-gods-header.png",
+                "/static/images/elder-gods/elder-gods-info.png",
+                "/static/images/elder-gods/elder-gods-people.png"
+            ]
+        },
+        {
+            "id": 0,
+            "project_name": "Employee Directory",
+            "description": "An employee directory with information generated randomly from randomuser.me using the Fetch API",
+            "technologies": [
+                "Fetch API",
+                "JavaScript"
+            ],
+            "live_link": "https://eldritchwebdesign.ca/fullstack-project-5/",
+            "github_link": "https://github.com/svanardenne/fullstack-project-5",
+            "image_urls": [
+                "/static/images/employee-directory/employee-directory-thumb.png",
+                "/static/images/employee-directory/employee-directory-main.png",
+                "/static/images/employee-directory/employee-directory-search.png",
+                "/static/images/employee-directory/employee-directory-modal.png"
+            ]
+        },
+        {
+            "id": 0,
+            "project_name": "Interactive Form",
+            "description": "A responsive form using JavaScript validation",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://eldritchwebdesign.ca/fullstack-project-3/",
+            "github_link": "https://github.com/svanardenne/fullstack-project-3",
+            "image_urls": [
+                "/static/images/interactive-form/interactive-form-thumb.png",
+                "/static/images/interactive-form/interactive-form-main.png",
+                "/static/images/interactive-form/interactive-form-bottom.png",
+                "/static/images/interactive-form/interactive-form-validation.png"
+            ]
+        },
+        {
+            "id": 0,
+            "project_name": "Phrase Hunter",
+            "description": "Word guessing game using PajaScript classes",
+            "technologies": [
+                "JavaScript"
+            ],
+            "live_link": "https://eldritchwebdesign.ca/fullstack-project-4/",
+            "github_link": "https://github.com/svanardenne/fullstack-project-4",
+            "image_urls": [
+                "/static/images/phrase-hunter/phrase-hunter-thumb.png",
+                "/static/images/phrase-hunter/phrase-hunter-title.png",
+                "/static/images/phrase-hunter/phrase-hunter-main.png",
+                "/static/images/phrase-hunter/phrase-hunter-win.png"
+            ]
+        },
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A random quote generator using arrays, object literals; complete with timer",
+            "technologies": [
+                "JavaScript"
+            ],
+            "live_link": "https://eldritchwebdesign.ca/fullstack-project-1/",
+            "github_link": "https://github.com/svanardenne/fullstack-project-1",
+            "image_urls": [
+                "/static/images/quote-generator/quote-generator-thumb.png",
+                "/static/images/quote-generator/quote-generator-blue.png",
+                "/static/images/quote-generator/quote-generator-green.png",
+                "/static/images/quote-generator/quote-generator-purple.png"
+            ]
+        },
+        {
+            "id": 0,
+            "project_name": "Student Directory",
+            "description": "A student directory using data pagination and filtering techniques",
+            "technologies": [
+                "JavaScript"
+            ],
+            "live_link": "https://eldritchwebdesign.ca/fullstack-project-2/",
+            "github_link": "https://github.com/svanardenne/fullstack-project-2",
+            "image_urls": [
+                "/static/images/student-directory/student-directory-thumb.png",
+                "/static/images/student-directory/student-directory-main.png",
+                "/static/images/student-directory/student-directory-search.png",
+                "/static/images/student-directory/student-directory-pagination.png"
+            ]
+        }
+    ]
+}
