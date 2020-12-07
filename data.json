@@ -18,7 +18,7 @@
             ]
         },
         {
-            "id": 0,
+            "id": 1,
             "project_name": "Employee Directory",
             "description": "An employee directory with information generated randomly from randomuser.me using the Fetch API",
             "technologies": [
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "id": 0,
+            "id": 2,
             "project_name": "Interactive Form",
             "description": "A responsive form using JavaScript validation",
             "technologies": [
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "id": 0,
+            "id": 3,
             "project_name": "Phrase Hunter",
             "description": "Word guessing game using PajaScript classes",
             "technologies": [
@@ -69,7 +69,7 @@
             ]
         },
         {
-            "id": 0,
+            "id": 4,
             "project_name": "Random Quote Generator",
             "description": "A random quote generator using arrays, object literals; complete with timer",
             "technologies": [
@@ -85,7 +85,7 @@
             ]
         },
         {
-            "id": 0,
+            "id": 5,
             "project_name": "Student Directory",
             "description": "A student directory using data pagination and filtering techniques",
             "technologies": [

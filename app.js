@@ -3,20 +3,20 @@ const projects = require('./data.json').projects;
 
 const app = express();
 
-app.use('/static', express.static('public'))
+app.use('/static', express.static('public'));
 
-app.set('view engine', 'pug')
+app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {projects});
 });
 
 app.get('/about', (req, res) => {
     res.render('about');
-})
+});
 
 app.get('/project/:id', (req, res) => {
-    const id = req.params.id - 1;
+    const id = req.params.id;
     const project = projects[id];
     res.render('project', {project});
 });
