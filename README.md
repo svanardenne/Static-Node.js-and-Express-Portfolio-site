@@ -14,4 +14,3 @@ Changes made to CSS using custom.css:
  - Changed button color to #282a36
  - Changed bottom-border colors to #bd93f9
  - Changed color of 'back' anchors to #bd93f9 on hover
- - 
