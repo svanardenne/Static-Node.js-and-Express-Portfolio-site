@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
+    throw new Error(500);
     res.render('about');
 });
 
@@ -30,10 +31,20 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
     if (err.status && err.message) {
-        res.status(err.status || 500);
+        res.status(err.status);
         console.log(err.status);
         console.log(err.message);
-        next(err);
+        if (err.status === 404) {
+            res.render('page-not-found', {err});
+        } else {
+            res.render('error', {err});
+        }
+    } else {
+        err.status = 500;
+        err.message = 'Oops, something went wrong!'
+        console.log(err.status);
+        console.log(err.message);
+        res.render('error', {err});
     }
 });
 

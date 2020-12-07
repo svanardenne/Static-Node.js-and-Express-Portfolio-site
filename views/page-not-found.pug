@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 #{err.status} - #{err.message}
+        p.lead.text-light
+          |  The page you are looking for does not exist.
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
