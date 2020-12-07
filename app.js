@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    throw new Error(500);
     res.render('about');
 });
 

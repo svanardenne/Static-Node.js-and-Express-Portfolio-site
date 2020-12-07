@@ -1,0 +1,45 @@
+/* Custom CSS */
+
+body {
+    background-color: #44475a;
+    color: #f8f8ff;
+}
+
+h1,h2,h3,h4,h5,p,a,.text-light {
+    font-family: 'Quicksand', sans-serif;
+    color: #F8F8FF;
+}
+
+a:hover {
+    color: #bd93f9;
+}
+
+.portfolio-me {
+    background-color: #282a36;
+}
+
+.thumbnail,
+.image {
+    border: 4px solid #6272a4;
+}
+
+.portfolio-project li {
+    color: #f8f8ff;
+}
+
+.button {
+    background-color: #282a36;
+}
+
+.button:hover {
+    background-color: #bd93f9;
+}
+
+.portfolio-breadcrumb,
+.portfolio-intro p {
+    border-bottom: 1px solid #bd93f9;
+}
+
+.border-none {
+    border: none !important;
+}
