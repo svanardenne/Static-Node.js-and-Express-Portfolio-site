@@ -38,9 +38,9 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     if (err.status && err.message) {
         res.status(err.status);
-        console.log(err.status);
-        console.log(err.message);
         if (err.status === 404) {
+            console.log(err.status);
+            console.log(err.message);
             res.render('page-not-found', {err});
         } else {
             res.render('error', {err});
