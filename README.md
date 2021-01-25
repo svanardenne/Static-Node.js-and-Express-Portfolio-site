@@ -16,7 +16,7 @@ Changes made to CSS using custom.css:
  - Changed color of 'back' anchors to #bd93f9 on hover
 
  # Installation
- To install dependancies run "npm install"
+ To install dependancies run ```npm install```
 
  # To Run
- Run "npm start" to start application on localhost:3000
+ Run ```npm start``` to start application on localhost:3000
